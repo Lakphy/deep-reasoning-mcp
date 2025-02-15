@@ -1,6 +1,26 @@
 {
   "name": "deep-reasoning-mcp",
   "version": "0.0.1",
+  "description": "Deep reasoning MCP Server",
+  "author": {
+    "name": "Lakphy",
+    "email": "lakphy@outlook.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "ai",
+    "reasoning",
+    "model-context-protocol"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lakphy/deep-reasoning-mcp.git"
+  },
+  "homepage": "https://github.com/lakphy/deep-reasoning-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/lakphy/deep-reasoning-mcp/issues"
+  },
   "type": "module",
   "exports": {
     ".": {
@@ -36,7 +56,6 @@
     "typescript": "^5.7.3",
     "@types/express": "^5.0.0"
   },
-  "private": true,
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.5.0",
     "@openrouter/ai-sdk-provider": "^0.2.1",
