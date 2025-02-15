@@ -1,6 +1,6 @@
 {
   "name": "deep-reasoning-mcp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Deep reasoning MCP Server",
   "author": {
     "name": "Lakphy",
@@ -36,7 +36,7 @@
     "dist"
   ],
   "bin": {
-    "deep-reasoning-mcp": "./dist/index.js"
+    "deep-reasoning-mcp": "./dist/index.cjs"
   },
   "scripts": {
     "build": "rslib build",

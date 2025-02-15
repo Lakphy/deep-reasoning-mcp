@@ -11,6 +11,12 @@
 
 ## 使用方法
 
+### Cursor
+
+```bash
+npx -y deep-reasoning-mcp --apiKey=<YOUR_OPENROUTER_API_KEY> --model=<YOUR_MODEL>
+```
+
 ## 技术架构
 
 - **模型接口层**：使用 @modelcontextprotocol/sdk 实现 MCP 协议支持
