@@ -1,0 +1,47 @@
+{
+  "name": "deep-reasoning-mcp",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "deep-reasoning-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "rslib build",
+    "dev": "rslib build --watch",
+    "start": "nodemon dist/index.js",
+    "start:sse": "nodemon dist/sse.js",
+    "debug": "npx @modelcontextprotocol/inspector node dist/index.js",
+    "check": "biome check --write",
+    "format": "biome format --write"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@modelcontextprotocol/inspector": "^0.4.1",
+    "@rslib/core": "^0.4.1",
+    "@types/node": "^22.13.4",
+    "nodemon": "^3.0.2",
+    "typescript": "^5.7.3",
+    "@types/express": "^5.0.0"
+  },
+  "private": true,
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.5.0",
+    "@openrouter/ai-sdk-provider": "^0.2.1",
+    "ai": "^4.1.40",
+    "zod": "^3.24.2",
+    "express": "^4.21.2"
+  }
+}
