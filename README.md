@@ -14,7 +14,7 @@
 ### Cursor
 
 ```bash
-npx -y deep-reasoning-mcp --apiKey=<YOUR_OPENROUTER_API_KEY> --model=<YOUR_MODEL>
+npx -y deep-reasoning-mcp@latest --apiKey=<YOUR_OPENROUTER_API_KEY> --model=<YOUR_MODEL>
 ```
 
 ## 技术架构

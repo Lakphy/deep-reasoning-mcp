@@ -27,7 +27,7 @@ const openrouter = createOpenRouter({
 
 export const server = new McpServer({
   name: process.env.APP_NAME || "deep-reasoning-server",
-  version: process.env.APP_VERSION || "0.0.1",
+  version: process.env.APP_VERSION || "0.1.0",
 });
 
 server.tool(
