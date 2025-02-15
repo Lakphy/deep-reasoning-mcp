@@ -1,6 +1,6 @@
 {
   "name": "deep-reasoning-mcp",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Deep reasoning MCP Server",
   "author": {
     "name": "Lakphy",
@@ -44,7 +44,7 @@
     "dev": "rslib build --watch",
     "start": "nodemon dist/index.js",
     "start:sse": "nodemon dist/sse.js",
-    "debug": "npx @modelcontextprotocol/inspector node dist/index.js",
+    "debug": "npx @modelcontextprotocol/inspector node bin/deep-reasoning-mcp.js",
     "check": "biome check --write",
     "format": "biome format --write"
   },
